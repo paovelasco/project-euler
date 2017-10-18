@@ -6,14 +6,14 @@ class HomePage extends React.Component{
     return (
       <div>
         <h1>Project Euler Problems</h1>
-        <ol>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
+        <ol reversed>
           <li><Link to="/7">10001st prime</Link></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li><Link to="1">Multiples of 3 and 5</Link></li>
         </ol>
       </div>
 

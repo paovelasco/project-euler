@@ -42,9 +42,9 @@ class Problem7 extends React.Component{
   render(){
     return (
       <div>
-        <h1>#7 10001st prime</h1>
-        <p>By listing the first six prime numbers: 2, 3, 5, 7, 11, and 13, we can see that the 6th prime is 13. What is the 10 001st prime number?</p>
-        <p>Ans: {this.getNPrime(10001)}</p>
+        <h1>10001st prime</h1>
+        <h4>By listing the first six prime numbers: 2, 3, 5, 7, 11, and 13, we can see that the 6th prime is 13. What is the 10 001st prime number?</h4>
+        <p>Answer: {this.getNPrime(10001)}</p>
       </div>
     );
   }
