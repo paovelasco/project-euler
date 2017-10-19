@@ -7,6 +7,7 @@ class HomePage extends React.Component{
       <div>
         <h1>Project Euler Problems</h1>
         <ol reversed>
+          <li><Link to="/8">Largest product in a series</Link></li>
           <li><Link to="/7">10001st prime</Link></li>
           <li></li>
           <li></li>
