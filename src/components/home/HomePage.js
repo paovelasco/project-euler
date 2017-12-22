@@ -13,7 +13,7 @@ class HomePage extends React.Component{
           <li><Link to="/7">10001st prime</Link></li>
           <li></li>
           <li></li>
-          <li></li>
+          <li><Link to="4">Largest palindrome product</Link></li>
           <li></li>
           <li><Link to="2">Even Fibonacci numbers</Link></li>
           <li><Link to="1">Multiples of 3 and 5</Link></li>
